@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Engineer Portfolio</title>
+  <i>Madhvi Tandel</i>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <div class="brand">A. Engineer</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="btn btn-small" aria-label="Toggle theme">Theme</button>
+    </nav>
+
+    <div class="hero-content">
+      <p class="kicker">DevOps Engineer</p>
+      <h1>Building Reliable Cloud Infrastructure and Delivery Pipelines</h1>
+      <p class="subtitle">
+        I design secure, scalable systems with infrastructure as code, CI/CD automation,
+        and observability-first practices.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a DevOps engineer focused on improving deployment speed, reducing operational risk,
+        and keeping systems available under load. I work across AWS, Kubernetes, Terraform,
+        and modern CI/CD tooling.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Core Skills</h2>
+      <div class="skills-grid">
+        <div class="card">Linux & Bash</div>
+        <div class="card">Docker & Kubernetes</div>
+        <div class="card">Terraform & IaC</div>
+        <div class="card">GitHub Actions / Jenkins</div>
+        <div class="card">AWS & Cloud Networking</div>
+        <div class="card">Prometheus & Grafana</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project">
+          <h3>Kubernetes Platform Rollout</h3>
+          <p>Migrated 20+ services to Kubernetes with GitOps, reducing release errors by 35%.</p>
+        </article>
+        <article class="project">
+          <h3>Terraform Multi-Env Stack</h3>
+          <p>Standardized infrastructure for dev/stage/prod with reusable modules and policy checks.</p>
+        </article>
+        <article class="project">
+          <h3>Observability Upgrade</h3>
+          <p>Implemented full-stack monitoring and alerting that cut mean time to recovery by 40%.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:alex.devops@example.com">alex.devops@example.com</a></p>
+      <p>GitHub: <a href="#">github.com/alex-devops</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/alex-devops</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> A. Engineer. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
